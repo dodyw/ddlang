@@ -17,7 +17,7 @@
   function ddlang_loadfile($file) {
     global $ddlang;
     
-	$lines = file($file);
+    $lines = file($file);
 
     foreach ($lines as $k => $v) {
       if (substr($v,0,5) == 'msgid') {
