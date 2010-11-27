@@ -1,0 +1,23 @@
+  /************************************************
+  ddlang library
+  by Dody Rachmat Wicaksono (dodyrw@gmail.com)
+
+  version 1.1
+  Nov 27 2010
+  ************************************************/
+  
+  ddlang is a simple php language engine inspired by
+  gettext. It use gettext language file (.po) with 
+  no difference. So gettext tools like poedit still
+  can be used.
+  
+  However ddlang is so simple. As simple as looking
+  up an array of string then replace it with the correct
+  match of translated language.
+
+  The main difference with gettext is that it doesn't
+  need to compile .po file to .mo file (binary). ddlang
+  read the language file directly and construct an array
+  called $ddlang.
+  
+  Thank you for using ddlang!
